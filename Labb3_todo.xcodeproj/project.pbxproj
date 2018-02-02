@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72D0F6612020A895003DED5D /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D0F6602020A895003DED5D /* DetailsViewController.m */; };
 		72F3F949201FB84800A8E9B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F3F948201FB84800A8E9B7 /* AppDelegate.m */; };
 		72F3F94C201FB84800A8E9B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F3F94B201FB84800A8E9B7 /* ViewController.m */; };
 		72F3F94F201FB84800A8E9B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F3F94D201FB84800A8E9B7 /* Main.storyboard */; };
 		72F3F951201FB84800A8E9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F3F950201FB84800A8E9B7 /* Assets.xcassets */; };
 		72F3F954201FB84800A8E9B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F3F952201FB84800A8E9B7 /* LaunchScreen.storyboard */; };
 		72F3F957201FB84800A8E9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F3F956201FB84800A8E9B7 /* main.m */; };
+		72F3F95F201FB9E400A8E9B7 /* TodoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F3F95E201FB9E400A8E9B7 /* TodoTableViewController.m */; };
+		72F3F96220206D2B00A8E9B7 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F3F96120206D2B00A8E9B7 /* AddViewController.m */; };
+		72F3F9652020787200A8E9B7 /* TodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F3F9642020787200A8E9B7 /* TodoList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72D0F65F2020A895003DED5D /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		72D0F6602020A895003DED5D /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		72F3F944201FB84800A8E9B7 /* Labb3_todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Labb3_todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F3F947201FB84800A8E9B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72F3F948201FB84800A8E9B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		72F3F953201FB84800A8E9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72F3F955201FB84800A8E9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72F3F956201FB84800A8E9B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72F3F95D201FB9E400A8E9B7 /* TodoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTableViewController.h; sourceTree = "<group>"; };
+		72F3F95E201FB9E400A8E9B7 /* TodoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTableViewController.m; sourceTree = "<group>"; };
+		72F3F96020206D2B00A8E9B7 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		72F3F96120206D2B00A8E9B7 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		72F3F9632020787200A8E9B7 /* TodoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
+		72F3F9642020787200A8E9B7 /* TodoList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +70,23 @@
 		72F3F946201FB84800A8E9B7 /* Labb3_todo */ = {
 			isa = PBXGroup;
 			children = (
+				72F3F9632020787200A8E9B7 /* TodoList.h */,
+				72F3F9642020787200A8E9B7 /* TodoList.m */,
 				72F3F947201FB84800A8E9B7 /* AppDelegate.h */,
 				72F3F948201FB84800A8E9B7 /* AppDelegate.m */,
 				72F3F94A201FB84800A8E9B7 /* ViewController.h */,
 				72F3F94B201FB84800A8E9B7 /* ViewController.m */,
 				72F3F94D201FB84800A8E9B7 /* Main.storyboard */,
+				72F3F95D201FB9E400A8E9B7 /* TodoTableViewController.h */,
+				72F3F95E201FB9E400A8E9B7 /* TodoTableViewController.m */,
+				72F3F96020206D2B00A8E9B7 /* AddViewController.h */,
+				72F3F96120206D2B00A8E9B7 /* AddViewController.m */,
 				72F3F950201FB84800A8E9B7 /* Assets.xcassets */,
 				72F3F952201FB84800A8E9B7 /* LaunchScreen.storyboard */,
 				72F3F955201FB84800A8E9B7 /* Info.plist */,
 				72F3F956201FB84800A8E9B7 /* main.m */,
+				72D0F65F2020A895003DED5D /* DetailsViewController.h */,
+				72D0F6602020A895003DED5D /* DetailsViewController.m */,
 			);
 			path = Labb3_todo;
 			sourceTree = "<group>";
@@ -142,7 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F3F96220206D2B00A8E9B7 /* AddViewController.m in Sources */,
+				72F3F9652020787200A8E9B7 /* TodoList.m in Sources */,
 				72F3F94C201FB84800A8E9B7 /* ViewController.m in Sources */,
+				72F3F95F201FB9E400A8E9B7 /* TodoTableViewController.m in Sources */,
+				72D0F6612020A895003DED5D /* DetailsViewController.m in Sources */,
 				72F3F957201FB84800A8E9B7 /* main.m in Sources */,
 				72F3F949201FB84800A8E9B7 /* AppDelegate.m in Sources */,
 			);
